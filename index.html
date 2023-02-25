@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive Modal using HTML CSS & JS</title>
+
+    <!-- ===== STYLE.CSS ===== -->
+    <link rel="stylesheet" href="./style.css" />
+
+    <!-- ===== BOXICONS CDN ===== -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- ===== CONTAINER ===== -->
+    <div class="container">
+      <!-- ===== SHARE MODAL BTN ===== -->
+      <button class="share__modal_btn">share</button>
+
+      <!-- ===== SHARE MODAL ===== -->
+      <main class="share__modal">
+        <div class="share__modal_content">
+          <!-- ===== SHARE MODAL HEADER ===== -->
+          <div class="share__modal__header">
+            <span>share</span>
+            <button class="close_modal_btn">
+              <i class="bx bx-x bx-sm"></i>
+            </button>
+          </div>
+
+          <!-- ===== SHARING OPTIONS ===== -->
+          <div class="share__modal__options">
+            <ul class="list">
+              <li class="list__item">
+                <div class="icon_holder" data-icon="twitter">
+                  <img
+                    src="./img/twitter-logo.png"
+                    class="social__logo"
+                    alt="twitter-logo"
+                  />
+                </div>
+                <span>twitter</span>
+              </li>
+
+              <li class="list__item">
+                <div class="icon_holder" data-icon="facebook">
+                  <img
+                    src="./img/facebook-logo.png"
+                    class="social__logo"
+                    alt="facebook-logo"
+                  />
+                </div>
+                <span>facebook</span>
+              </li>
+              <li class="list__item">
+                <div class="icon_holder" data-icon="reddit">
+                  <img
+                    src="./img/reddit-logo.png"
+                    class="social__logo"
+                    alt="reddit-logo"
+                  />
+                </div>
+                <span>reddit</span>
+              </li>
+              <li class="list__item">
+                <div class="icon_holder" data-icon="discord">
+                  <img
+                    src="./img/discord-logo.png"
+                    class="social__logo"
+                    alt="discord-logo"
+                  />
+                </div>
+                <span>discord</span>
+              </li>
+              <li class="list__item">
+                <div class="icon_holder" data-icon="whatsapp">
+                  <img
+                    src="./img/whatsapp-logo.png"
+                    class="social__logo"
+                    alt="whatsapp-logo"
+                  />
+                </div>
+                <span>whatsapp</span>
+              </li>
+              <li class="list__item">
+                <div class="icon_holder" data-icon="messenger">
+                  <img
+                    src="./img/messenger-logo.png"
+                    class="social__logo"
+                    alt="messenger-logo"
+                  />
+                </div>
+                <span>messenger</span>
+              </li>
+              <li class="list__item">
+                <div class="icon_holder" data-icon="telegram">
+                  <img
+                    src="./img/telegram-logo.png"
+                    class="social__logo"
+                    alt="telegram-logo"
+                  />
+                </div>
+                <span>telegram</span>
+              </li>
+              <li class="list__item">
+                <div class="icon_holder" data-icon="wechat">
+                  <img
+                    src="./img/wechat-logo.png"
+                    class="social__logo"
+                    alt="wechat-logo"
+                  />
+                </div>
+                <span>wechat</span>
+              </li>
+            </ul>
+          </div>
+          <!-- ===== SHARE LINK ===== -->
+          <div class="share__modal_link">
+            <span>page link</span>
+            <div class="share__modal_input">
+              <input type="text" placeholder="https://www.sharethispage.io">
+              <i class='bx bx-copy copy_icon'></i>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+
+    <!-- ===== SCRIPT.JS ===== -->
+    <script src="./script.js"></script>
+  </body>
+</html>
+ 
